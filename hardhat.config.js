@@ -23,8 +23,8 @@ const config = {
         },
         testnet: {
             url: `${
-                process.env.BSC_MAINNET_URL
-                    ? process.env.BSC_MAINNET_URL
+                process.env.BSC_TESTNET_URL
+                    ? process.env.BSC_TESTNET_URL
                     : "https://data-seed-prebsc-1-s1.binance.org:8545/"
             }`,
             gas: "auto",
